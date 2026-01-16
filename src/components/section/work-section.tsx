@@ -16,7 +16,7 @@ function LogoImage({ src, alt }: { src: string; alt: string }) {
 
   if (!src || imageError) {
     return (
-      <div className=" size-12 m-auto bg-muted-background dark:bg-foreground" />
+      <div className=" size-10 m-auto bg-muted-background dark:bg-foreground" />
     );
   }
 
@@ -24,7 +24,7 @@ function LogoImage({ src, alt }: { src: string; alt: string }) {
     <img
       src={src}
       alt={alt}
-      className="border border-neutral-400 rounded-full size-12 m-auto bg-muted-background dark:bg-foreground"
+      className="border border-neutral-400 rounded-full size-9 md:size-10 m-auto bg-muted-background dark:bg-foreground"
       onError={() => setImageError(true)}
     />
   );

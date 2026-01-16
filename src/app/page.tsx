@@ -29,7 +29,7 @@ export default function Page() {
               />
               <div className="flex items-center gap-2 text-sm text-neutral-300">
   {/* Location */}
-          <span className="flex items-center gap-2">
+          <BlurFade className="flex items-center gap-2">
             <svg
               className="h-4 w-4"
               viewBox="0 0 24 24"
@@ -44,14 +44,17 @@ export default function Page() {
                   C10.343,7 9,8.343 9,10 C9,11.657 10.343,13 12,13 Z"
               />
             </svg>
-            <span>Bangalore, India</span>
-          </span>
+            <BlurFadeText
+              delay={BLUR_FADE_DELAY}
+              text="Bangalore, India"
+            />
+          </BlurFade>
 
           {/* Divider */}
-          <span className="opacity-50">|</span>
+          <BlurFade className="opacity-50">|</BlurFade>
 
           {/* Time */}
-          <span className="relative flex items-center gap-2">
+          <BlurFade className="relative flex items-center gap-2">
             <svg
               className="h-4 w-4"
               viewBox="0 0 24 24"
@@ -71,7 +74,7 @@ export default function Page() {
                     <LiveTime/>
                   </span>
                 </span>
-              </span>
+              </BlurFade>
             </div>
 
               <BlurFadeText
@@ -135,7 +138,7 @@ export default function Page() {
                       <img
                         src={education.logoUrl}
                         alt={education.school}
-                        className="size-8 md:size-10 p-1 border rounded-full shadow ring-1 ring-border overflow-hidden object-contain flex-none"
+                        className="size-9 md:size-11 p-1 border rounded-full shadow ring-1 ring-border overflow-hidden object-contain flex-none"
                       />
                     ) : (
                       <div className="size-8 md:size-10 p-1 border rounded-full shadow ring-2 ring-border bg-muted flex-none" />
@@ -170,7 +173,8 @@ export default function Page() {
           <div className="flex flex-wrap gap-2">
             {DATA.skills.map((skill, id) => (
               <BlurFade key={skill.name} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
-                <div className="border bg-background border-border ring-2 ring-border/20 rounded-lg h-8 w-fit px-4 py-1 flex items-center gap-2">
+                <div className="border bg-background  ring-2 ring-border/20 rounded-lg h-8 w-fit px-4 py-1 flex items-center gap-2
+                shadow-[0_32px_64px_-16px_#0006,0_16px_32px_-8px_#0006,0_8px_16px_-4px_#0004,0_4px_8px_-2px_#0004,0_-8px_16px_-1px_#0003,0_2px_4px_-1px_#0004,0_0_0_1px_#000,inset_0_0_0_1px_#ffffff14,inset_0_1px_#fff3]">
                   {skill.icon && <skill.icon className="size-4 rounded overflow-hidden object-contain" />}
                   <span className="text-foreground text-sm font-medium">{skill.name}</span>
                 </div>
