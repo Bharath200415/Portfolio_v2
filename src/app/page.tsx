@@ -173,8 +173,8 @@ export default function Page() {
           <div className="flex flex-wrap gap-2">
             {DATA.skills.map((skill, id) => (
               <BlurFade key={skill.name} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
-                <div className="border bg-background  ring-2 ring-border/20 rounded-lg h-8 w-fit px-4 py-1 flex items-center gap-2
-                shadow-[0_32px_64px_-16px_#0006,0_16px_32px_-8px_#0006,0_8px_16px_-4px_#0004,0_4px_8px_-2px_#0004,0_-8px_16px_-1px_#0003,0_2px_4px_-1px_#0004,0_0_0_1px_#000,inset_0_0_0_1px_#ffffff14,inset_0_1px_#fff3]">
+                <div className="border shadow-sm bg-background  ring-2 ring-border/20 rounded-lg h-8 w-fit px-4 py-1 flex items-center gap-2
+                dark:shadow-[0_32px_64px_-16px_#0006,0_16px_32px_-8px_#0006,0_8px_16px_-4px_#0004,0_4px_8px_-2px_#0004,0_-8px_16px_-1px_#0003,0_2px_4px_-1px_#0004,0_0_0_1px_#000,inset_0_0_0_1px_#ffffff14,inset_0_1px_#fff3]">
                   {skill.icon && <skill.icon className="size-4 rounded overflow-hidden object-contain" />}
                   <span className="text-foreground text-sm font-medium">{skill.name}</span>
                 </div>
