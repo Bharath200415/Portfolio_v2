@@ -114,11 +114,13 @@ export const DATA = {
       dates: "Jan 2026 - Jan 2026",
       active: true,
       description:
-        "This project is dedicated to building a fast, simple, and reliable QR code generator that helps users instantly convert links into scannable QR codes. ",
+        "SnapQR is a lightweight Chrome extension that instantly converts any link into a downloadable QR code along with copy to clipboard option using REST API",
       technologies: [
         "HTML",
         "Javascript",
         "TailwindCSS",
+        "Canvas API",
+        "REST API"
       ],
       links: [
         {
@@ -129,7 +131,7 @@ export const DATA = {
       ],
       image: "",
       video:
-        "https://pub-52330599f4c24002984ec170d5e0354d.r2.dev/cursorful-video-1768647267551.mp4",
+        "https://pub-52330599f4c24002984ec170d5e0354d.r2.dev/cursorful-video-1768649132147%20(1).mp4",
     },
     {
       title: "Magic UI",
