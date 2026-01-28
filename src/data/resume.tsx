@@ -133,8 +133,37 @@ export const DATA = {
       video:
         "https://pub-52330599f4c24002984ec170d5e0354d.r2.dev/cursorful-video-1768649132147%20(1).mp4",
     },
+        {
+      title: "ZenNotes",
+      href: "https://zennotes.bharath.codes",
+      dates: "December 2024 - January 2025",
+      active: true,
+      description:
+        "A go-to Note taking App, which stores everything locally on the browser and fetches notes from the browser's local data when rendered",
+      technologies: [
+        "React.js",
+        "Javascript",
+        "LocalStorage",
+        "TailwindCSS",
+        "Shadcn UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://zennotes.bharath.codes",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/bharath200415/ZenNotes",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "https://pub-52330599f4c24002984ec170d5e0354d.r2.dev/cursorful-video-1769623622109%20(1).mp4",
+    },
     {
-      title: "Magic UI",
+      title: "Kylix UI",
       href: "https://magicui.design",
       dates: "June 2023 - Present",
       active: true,
@@ -165,39 +194,7 @@ export const DATA = {
       image: "",
       video: "https://cdn.magicui.design/bento-grid.mp4",
     },
-    {
-      title: "llm.report",
-      href: "https://llm.report",
-      dates: "April 2023 - September 2023",
-      active: true,
-      description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://llm.report",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
-    },
+
     {
       title: "Automatic Chat",
       href: "https://automatic.chat",

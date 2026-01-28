@@ -1,6 +1,5 @@
 "use client"
 import { useEffect, useState } from "react";
-import BlurFadeText from "./magicui/blur-fade-text";
 import BlurFade from "./magicui/blur-fade";
 
 
@@ -33,7 +32,7 @@ function LiveTime() {
   return (
     <span className="flex items-end">
       <BlurFade>{clock}</BlurFade>
-      <BlurFade className="ml-0.5 text-[0.7em] opacity-70">
+      <BlurFade className="ml-0.5 text-[0.7em] opacity-80">
         {period}
       </BlurFade>
     </span>

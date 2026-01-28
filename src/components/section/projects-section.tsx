@@ -14,7 +14,7 @@ export default function ProjectsSection() {
                             className="flex-1 h-px bg-linear-to-r from-transparent from-5% via-border via-95% to-transparent"
 
                         />
-                        <div className="border shadow-md shadow-neutral-300 dark:shadow-[0_32px_64px_-16px_#0006,0_16px_32px_-8px_#0006,0_8px_16px_-4px_#0004,0_4px_8px_-2px_#0004,0_-8px_16px_-1px_#0003,0_2px_4px_-1px_#0004,0_0_0_1px_#000,inset_0_0_0_1px_#ffffff14,inset_0_1px_#fff3] bg-primary z-10 rounded-md px-4 py-1">
+                        <div className="border shadow-md dark:shadow-[0_32px_64px_-16px_#0006,0_16px_32px_-8px_#0006,0_8px_16px_-4px_#0004,0_4px_8px_-2px_#0004,0_-8px_16px_-1px_#0003,0_2px_4px_-1px_#0004,0_0_0_1px_#000,inset_0_0_0_1px_#ffffff14,inset_0_1px_#fff3] bg-primary z-10 rounded-md px-4 py-1">
                             <span className="text-background text-sm font-medium">My Projects</span>
                         </div>
                         <div
